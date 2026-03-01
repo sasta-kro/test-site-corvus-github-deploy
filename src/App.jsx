@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import viteLogo from './assets/vite.svg'
 import './App.css'
 
 function App() {
@@ -9,12 +9,12 @@ function App() {
   return (
     <>
       <div>
-          {/*<h1>Test Website For Corvus Github Deployment</h1>*/}
-          {/*<p>*/}
-          {/*  This is a test website for Corvus Github Deployment.<br/>*/}
-          {/*    It is not intended to be used as a real website.<br/>*/}
-          {/*    It is only intended to be used for testing purposes.<br/>*/}
-          {/*</p>*/}
+          <h1>Test Website For Corvus GitHub Deployment</h1>
+          <p>
+            This is a test website for Corvus GitHub Deployment.<br/>
+              It is not intended to be used as a real website.<br/>
+              It is only intended to be used for testing purposes.<br/>
+          </p>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
